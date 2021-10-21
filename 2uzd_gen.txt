@@ -1,0 +1,1 @@
+"If (IsNumeric("+"Cells(i, Chr(Asc(\""+String.fromCharCode('L'.charCodeAt(0)+i)+"\")))"+".value) And Not IsEmpty("+"Cells(i, Chr(Asc(\""+String.fromCharCode('L'.charCodeAt(0)+i)+"\")))"+".value)) Then\nvalue = value + Val("+"Cells(i, Chr(Asc(\""+String.fromCharCode('L'.charCodeAt(0)+i)+"\")))"+".value)\nEnd If"

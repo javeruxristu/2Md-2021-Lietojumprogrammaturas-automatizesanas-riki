@@ -1,0 +1,16 @@
+Testi iekļauti Test_*.xlsm failā:
+1. aktuālo datu lietojuma ranga tests 
+	1.1. (S112 vajadzētu ignorēt meklējot pēdējo rindu)
+	1.2. Q32 nevajadzētu traucēt programmu
+2. pārklājošu objektu tests
+	2.1. attēls virs apmēram I23:N36 (testa formatējuma versijā)
+	2.2. Tukšs map chart E2:K14
+3. apvienoto šūnu testi
+	3.1. datu laukumā : A512:C56 ,
+	3.2. aprēķinu laukumā : J49:M51 , 
+	3.3. ārējā laukumā : S75:T77
+4. formatējumu testi: K38 , H37, P36 , M19 , F42, B36
+
+šo failu pārveidoju neatkarīgā vidē, uzinstalējot offisu  un tad atverot ar noklusējuma uzstādījumiem
+Protected view, pēc tam enable editing, bet pat tas neieslēdza makro, un tātad varēju darīt izklājlapā,
+kas vien ienāca prātā.

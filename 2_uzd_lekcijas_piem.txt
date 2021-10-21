@@ -1,0 +1,15 @@
+Public Sub aprekins()
+x = Cells(2, "G").Value
+y = Cells(2, 8).Value
+Z = Val(x) + Val(y)
+Cells(2, 9).Value = Z
+End Sub
+
+Public Sub krasa()
+x = Cells(2, "g").Interior.Color
+Cells(2, "k").Interior.Color = x
+Cells(2, "k").Value = x
+Cells(1, "e").Formula = "=SUM(C2:C12)"
+End Sub
+
+If (Not IsNumeric(Cells(i, "B").Value) Or IsEmpty(Cells(i, "B").Value)) And (Not IsNumeric(Cells(i, "C").Value) Or IsEmpty(Cells(i, "C").Value)) And (Not IsNumeric(Cells(i, "D").Value) Or  Or IsEmpty(Cells(i, "D").Value)) And (Not IsNumeric(Cells(i, "E").Value) Or  Or IsEmpty(Cells(i, "E").Value)) Then
